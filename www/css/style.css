@@ -1,3 +1,24 @@
+ /* Custom Additions by @adriangoe */
+
+
+.header-parallax {
+    /* The image used */
+    background-image: url("../img/AdrianBanner.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width : 993px) {
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 100px;
+        line-height: 60px;
+    }
+}
+
 /* Custom Stylesheet */
 /**
  *
@@ -5,9 +26,11 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: #2196F3 !important}
 
-.default_color_text{color: #2196F3 !important}
+
+.default_color{background-color: #A5492B !important}
+
+.default_color_text{color: #A5492B !important}
 
 .icon-block {
     padding: 0 15px;
@@ -20,11 +43,11 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background-color: #A5492B;
 }
 
 #nav_f{
-    box-shadow: none !important; 
+    box-shadow: none !important;
     -webkit-box-shadow:none !important;
 }
 
@@ -39,29 +62,29 @@
     position: absolute;
     color: #fff;
     display: inline-block;
-    font-size: 2.1rem;
+    font-size: 18pt;
     font-style: normal;
     font-weight: 100;
     padding: 0;
-    letter-spacing: 7px;
+    letter-spacing: 4px;
 }
 
 .text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #A5492B;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #A5492B;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #A5492B;
     font-size: 7rem;
     display: block;
 }
-.card-content a {color: #2196F3;}
+.card-content a {color: #A5492B;}
 
-.card-content a:hover {color: #2196F3;}
+.card-content a:hover {color: #A5492B;}
 
 #work, #team{background: rgb(247, 247, 247);}
 
@@ -112,7 +135,7 @@ nav ul a {
 }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-    color: #2196F3;
+    color: #A5492B;
 }
 
 .cd-headline.type b {
@@ -235,8 +258,8 @@ nav a.button-collapse {
 }
 
 .card-avatar img {
-    height: 150px;
-    width: 150px;
+    height: 75px;
+    width: 75px;
     border-radius: 75px;
 }
 
